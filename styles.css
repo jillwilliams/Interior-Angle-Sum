@@ -1,0 +1,38 @@
+body {
+    font-family: "Vibes", cursive;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    margin: 15px 35px 45px 35px;
+    background-image: linear-gradient(darkgrey, black);
+    color: orange;
+
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+#img1 {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px orange solid;
+}
+#img2 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px orange solid;
+}
+#img3, #img4, #img5 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px orange solid;
+}
+footer {
+    text-align: center;
+    font-size: 1rem;
+}

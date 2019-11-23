@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<meta charset="UTF-8" Unicode="U+00A9, UTF-8: C2 A9" Unicode="U+00B0, UTF-8: C2 B0" Unicode="U+019F, UTF-8: C6 9F" Unicode="U+00F7, UTF-8: C3 B7" Unicode="U+29E0, UTF-8: E2 A7 A0" Unicode="U+2605, UTF-8: E2 98 85">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Polygon Interior Angle Sum</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Vibes|Indie+Flower|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link HREF="./styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>
+        Interior Angle Sum of Polygons
+    </h1>
+    <p>
+        The sum of the interior angles of any polygon can be calculated using the formula:<br>
+        (n - 2)180° where variable n = the number of sides the polygon has. 
+    </p>
+    <p>
+        For example, we already covered the interior angle sum of any triangle = 180°. A triangle has three sides. Therefore n = 3.<br>
+        Using the formula to calculate the interior angle sum would be calculated as follows:<br>
+        (n - 2)180°.<br>
+        (3 - 2)180°<br>
+        1 x 180° = 180°, as expected.
+    </p>
+    <p>
+        The polgons in Geometry are as follows:<br>
+        3 sides: triangle<br>
+        4 sides: quadrilateral<br>
+        5 sides: pentagon<br>
+        6 sides: hexagon<br>
+        7 sides: heptagon<br>
+        8 sides: octagon<br>
+        9 sides: nonagon<br>
+        10 sides: decagon<br>
+    </p>
+    <hr>
+    <p>
+        The sum of the interior angles of each polygon are shown in the table below:<br><br>
+        <img src="images/img1.png" alt="sums" id="img1" />
+        Notice the sum increases by 180° for each polygon. The table could extend to a polygon of any type. We can even calculate the sum inside a 50-sided polygon, but for that we would want to utilize our formula to save time.
+    </p>
+    <hr>
+    <p>
+        To solve for a missing angle's degree inside a polygon works just like the triangle sum. Add all the angles that you have, then subtract this number from the total interior angle sum. This will give you the missing angle's degree. Use the table to determine the total sum as its different for each shape.
+    </p>
+    <p>
+        Example1:<br>
+        <img src="images/img2.png" alt="ex1" id="img2" />
+        Step 1 = this is a 4-sided polgon. Therefore, n = 4.
+        A Quadrilateral's interior angles add to equal 360°.<br>
+        Step 2 = Subtract all three angles from 360° and you will have the answer, the missing angle's degrees.<br>
+        Calculation: 360° - 110° - 100° - 80° = ?<br>
+        Answer: 70° ★
+    </p>
+    <hr>
+    <p>
+        Example 2: Solve for the missing angle.<br>
+        <img src="images/img3.png" alt="ex2" id="img3" />
+        Step 1 = this is a 5-sided polgon. Therefore, n = 5.
+        A Pentagon's interior angles add to equal 540°.<br>
+        Step 2 = Subtract all four angles from 540° and you will have the answer, the missing angle's degrees.<br>
+        Calculation: 540° - 120° - 90° - 100° - 85° = ?<br>
+        Answer: 145° ★
+    </p>
+    <hr>
+    <p>
+        Example 3: Solve for the missing angle.<br>
+        <img src="images/img4.png" alt="ex3" id="img4" />
+        Step 1 = this is a 7-sided polgon. Therefore, n = 7.
+        A Heptagon's interior angles add to equal 900°.<br>
+        Step 2 = Subtract all six angles from 900° and you will have the answer, the missing angle's degrees.<br>
+        Calculation: 900° - 140° - 150° - 110° - 120° - 130° - 120° = ?<br>
+        Answer: 130° ★
+    </p>
+    <hr>
+    <p>
+        Example 4: Using the formula (n - 2)180°, calculate the interior angle sum of a 50-sided polygon.<br> 
+        Solution: a 50-sided polygon means n = 50. Substitute 50 into the equation and simplify.<br>
+        (50 - 2)180°<br>
+        (48)180°<br>
+        Answer: 8,640° ★
+    </p>
+    <hr>
+    <p>
+        Example 5: Using the formula (n - 2)180°, calculate the interior angle sum of a 1,000-sided polygon.<br> 
+        Solution: a 1,000-sided polygon means n = 1,000. Substitute 1,000 into the equation and simplify.<br>
+        (1,000 - 2)180°<br>
+        (998)180°<br>
+        Answer: 179,640° ★<br>
+        A 1000-gon almost looks like a circle. The more sides a polygon has the closer it approaches a circular shape.
+        <img src="images/img5.png" alt="1000gon" id="img5" />
+    </p>
+    <hr>
+    <footer>©2019 All Things Math</footer>
+    <script src="script.js"></script>
+</body>
+</html>
