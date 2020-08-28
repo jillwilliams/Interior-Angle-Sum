@@ -3,9 +3,8 @@ body {
     font-size: 1.5rem;
     letter-spacing: 3px;
     margin: 15px 35px 45px 35px;
-    background-image: linear-gradient(darkgrey, black);
+    background-color: black;
     color: orange;
-
 }
 h1 {
     text-align: center;
@@ -30,6 +29,10 @@ h1 {
     height: auto;
     margin-left: 40%;
     margin-right: 40%;
+    border: 2px orange solid;
+}
+iframe {
+    margin: 15px 33% 15px 33%;
     border: 2px orange solid;
 }
 footer {
